@@ -1,0 +1,30 @@
+body {
+    background-color: lightcyan;
+}
+
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 180%;
+}
+
+h3 {
+    color: tomato;
+    font-family: courier;
+    font-size: 150%;
+}
+
+p  {
+    color: lightseagreen;
+    font-family: courier;
+    font-size: 120%;
+    /*The CSS border property defines a border 
+    around an HTML element:*/
+    border: 1px solid grey;
+    /*The CSS padding property defines a padding 
+    (space) between the text and the border:*/
+    padding: 20px;
+    /*The CSS margin property defines a margin 
+    (space) outside the border:*/
+    margin: 50px;
+}
