@@ -1,14 +1,4 @@
 
-p {
-	 font-family:"Courier";
-	 font-size: 26px;
-}
-
-h1 {
-	font-family:"Courier";
-}
-
-
 h3 {
 	text-align:center;
 }
@@ -25,3 +15,13 @@ a:active {
     padding-top: 0px;
     padding-bottom: 0px;
  }
+
+.link {
+	 font-family:"Arial";
+	 font-size: 26px;
+}
+
+.header {
+ 	 font-family:"Arial";
+	 font-size: 36px;
+}
