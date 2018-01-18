@@ -1,0 +1,27 @@
+
+p {
+	 font-family:"Courier";
+	 font-size: 26px;
+}
+
+h1 {
+	font-family:"Courier";
+}
+
+
+h3 {
+	text-align:center;
+}
+
+a:link { 
+	color:red; 
+}
+
+a:active {
+	color: !important;
+}
+
+.container-fluid {
+    padding-top: 0px;
+    padding-bottom: 0px;
+ }
