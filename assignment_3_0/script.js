@@ -1,5 +1,5 @@
-var xPosi;                        
-var yPosi;
+var xPos;                        
+var yPos;
 var xBor = 30;                    
 var yBor = 30;
 var xSpeed = 1;                  
@@ -8,29 +8,29 @@ var ySpeed = 1;
 function setup(){                
   createCanvas(800,400);      
   background(0);               
-  xPosi = width/2;               
-  yPosi = height/2;     
+  xPos = width/2;               
+  yPos = height/2;     
   xSpeed = 3;       
   ySpeed = 10;       
 }
 
 function draw(){              
   var r = random(10, 50)
-  ( xPosi <= 200){
+  ( xPos <= 200){
     fill(50, 100, random(100, 220));
-    } else if( xPosi <= 400){
+    } else if( xPos <= 400){
       fill(50, random(100, 220), 100);
-      } else if( xPosi <= 600){
+      } else if( xPos <= 600){
       fill(255, random(150, 200), random(50, 100));
       } else fill(random(150, 220), random(150, 220), random(150, 220));
-  rect(xPosi + random(-20, 20), yPosi + random(-20, 20), 3, r);
-  xPosi += xSpeed; 
-  yPosi += ySpeed;
+  rect(xPos + random(-20, 20), yPos + random(-20, 20), 3, r);
+  xPos += xSpeed; 
+  yPos += ySpeed;
   
-  if (xPosi+xBor/2 >= width || xPosi-xBor/2 <= 0){    
+  if (xPos+xBor/2 >= width || xPos-xBor/2 <= 0){    
     xSpeed *= -1;                                 
   }
-  if (yPosi+yBor/2 >= height || yPosi-yBor/2 <= 0){    
+  if (yPos+yBor/2 >= height || yPos-yBor/2 <= 0){    
     ySpeed *= -1;
   }
   if( mouseIsPressed) {
