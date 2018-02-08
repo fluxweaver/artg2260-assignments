@@ -10,8 +10,8 @@ function setup(){
   background(0);               
   xPos = width/2;               
   yPos = height/2;     
-  xSpeed = 3;       
-  ySpeed = 10;       
+  xSpeed = random(3, 5);       
+  ySpeed = random(8, 10);       
 }
 
 function draw(){              
