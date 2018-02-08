@@ -16,7 +16,7 @@ function setup(){
 
 function draw(){              
   var r = random(10, 50)
-  ( xPos <= 200){
+  if( xPos <= 200){
     fill(50, 100, random(100, 220));
     } else if( xPos <= 400){
       fill(50, random(100, 220), 100);
