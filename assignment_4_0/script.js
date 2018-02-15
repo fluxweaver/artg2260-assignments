@@ -1,6 +1,3 @@
-// I'm gonna add a goalie to block the ball pong style, 
-// better textures, and better encouragement calls. 
-
 let b;
 let encouragement = ["woo!", "go you!", "score!", "GOAL!"];
 
@@ -88,7 +85,7 @@ class Box {
 
   kickY(){
   if( mouseY >= this.y - 75 && mouseY <= this.y + 75 
-  &&  mouseX >= this.x - 25 && mouseX <= this.x + 25) {
+  &&  mouseX >= this.x - 35 && mouseX <= this.x + 35) {
     if (mouseIsPressed && mouseY > this.y){
      this.ySpeed += -1;
     } else if (mouseIsPressed && mouseY < this.y){
@@ -99,7 +96,7 @@ class Box {
 
   kickX(){
   if( mouseX >= this.x - 75 && mouseX <= this.x + 75 
-  && mouseY >= this.y - 25 && mouseY <= this.y + 25 ) {
+  && mouseY >= this.y - 35 && mouseY <= this.y + 35 ) {
     if (mouseIsPressed && mouseX > this.x){
       this.xSpeed += -1;
     } else if (mouseIsPressed && mouseX < this.x){
