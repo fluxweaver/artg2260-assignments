@@ -9,8 +9,8 @@ function draw() {
   	background(0);
   	b.display();		
   	b.move();			
-	  b.bounce();	
-	  b.teleport();
+	b.bounce();	
+	b.teleport();
 }
 
 class Box {
