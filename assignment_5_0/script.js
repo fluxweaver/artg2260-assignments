@@ -100,7 +100,7 @@ class Box {
 		  text("ball to move it", 565, 545)
 		  text("Get to five", 10, 80)
 		  text("Restart game", 575, 80)
-		} else if ( this.score >= 0) {
+		} else if ( this.score >= 0 && this.score < 5) {
 		  textSize(30)
 		  fill(46, 96, 48)
 		  text("Guess you dont need instructions", 130, 350)
