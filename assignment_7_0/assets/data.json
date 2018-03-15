@@ -355,7 +355,6 @@
       "Source":"GISTEMP",
       "Year":1946
    },
-
    {
       "Mean":0.12,
       "Source":"GISTEMP",
@@ -365,7 +364,7 @@
       "Mean":0.25,
       "Source":"GISTEMP",
       "Year":1944
-   },,
+   },
    {
       "Mean":0.13,
       "Source":"GISTEMP",
@@ -587,5 +586,5 @@
       "Source":"GISTEMP",
       "Year":1900
    }
-   ]
+  ]
 }
