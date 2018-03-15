@@ -18,6 +18,7 @@ function setup() {
     fill(random(100, 150),random(100, 150),random(100, 150), i*3);
     rect(w*i, maximum - height/2, w, height);
   }
+  	text("trend of anomalies in global temperature", 0, 190);
     fill(200, 200, 200);
    	rect(0, 200, 1500, 2);
 }
