@@ -2,8 +2,7 @@ var data;
 
 function preload(){
 
-	// data = loadJSON("https://fluxweaver.github.io/artg2260-assignments/assignment_7_0/assets/data.json");
-	data = loadJSON("https://fluxweaver.github.io/artg2260-assignments/assignment_7_0/assets/data-test.json");
+	data = loadJSON("https://fluxweaver.github.io/artg2260-assignments/assignment_7_0/assets/data.json");
 }
 
 function setup() {
