@@ -1,9 +1,10 @@
 var thicc = 1;
 
 function setup() {
-	createCanvas(500, 500);
+	createCanvas(700, 500);
 	stroke(0);
     strokeWeight(thicc);
+    rect(0,0, 699, 499);
 	}
 
 
